@@ -5,15 +5,30 @@ img {
     margin: 100px auto 30px auto;
 }
 
-input[type=text] {
-    width: 450px;
+.searchbar {
+    width: 500px;
     display: block;
-    margin: 20px auto;
-    padding: .75em 1em;
+    margin: 0px auto; 
+}
 
-    border: solid 1px #eee;
+
+input[type=text] {
+    width: 100%;
+    margin: 20px auto; 
+    padding: 8px 12px;  
+    position: relative;
+/*    border: solid 1px #eee;
     box-shadow: 0px 1px #ccc;
     outline: none;    
+*/
+}
+
+
+#mic {
+    float: right;
+    position: relative;
+    top: -47px;
+    right: 10px;
 }
 
 input:hover {
