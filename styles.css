@@ -5,40 +5,48 @@ html             {height: 500px;
                   padding: 0px;}
 
 a:link,a:visited {text-decoration: none;
-                  color: #777}
+                  color: #777;}
 
-input:hover      {box-shadow: 0px 1px 2px #aaa;}            
+li:hover         {text-decoration: underline;}
+
+.buttons input:hover, 
+form:hover       {box-shadow: 1px 1px 1px #ddd,
+                  -1px 0px 1px #ddd;}            
 
 ul               {list-style-type: none;
                   margin: 0px;
-	                 padding: 0px;
-	                 line-height: 35px;}
+                  padding: 0px;
+                  line-height: 35px;}
 
 ul li            {padding: 0px 10px;
-	                 font-family: Verdana, sans-serif;
-		                color: #777;
-		                font-size: .8em;
-	               	 text-align: center;}
+                  font-family: Verdana, sans-serif;
+                  color: #777;
+                  font-size: .6em;
+                  text-align: center;}
 
 li.floatlt       {float: left; }
 li.floatrt       {float: right;}     
       	 	               	 
 img#circle       {width:30px; height:30px; 
-                  vertical-align: 0;} 	  
+                  vertical-align: 0;} 	
+  
 img#alarm        {width:16px; height:16px; 
                   vertical-align: -3;}
+
 img#menu         {width:16px; height:16px;
                   vertical-align: -3;}
                                     
-.body img        {display: block; 
-                  margin: 10% auto 30px auto;}
+.google_logo     {display: block; 
+                  text-align: center;
+                  margin: 10% auto 30px auto;
+                  }
 
 .searchbar       {width: 450px;
                   margin: 0px auto;}
 
 input[type=text] {width: 100%;
                   margin: 0px auto; 
-                  padding: 15px 12px;  
+                  padding: 15px 40px 12px 15px;  
                   border: solid 1px #eee;
                   box-shadow: 0px 1px #ccc;
                   outline: none;}
@@ -59,8 +67,7 @@ input[type=submit] {font-family: Verdana, sans-serif;
                     border: 1px #ccc;
                     outline: none;}
                     
-.footer      {
-              position: fixed;
+.footer      {position: fixed;
               left: 0;
               bottom: 0;
               height: 35px; 
